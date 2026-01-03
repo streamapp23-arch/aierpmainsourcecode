@@ -1,0 +1,212 @@
+{
+  "auditDate": "2025-12-12T11:10:45.060Z",
+  "totalPages": 26,
+  "pagesWithH1": 2,
+  "totalIssues": 24,
+  "results": [
+    {
+      "file": "About.tsx",
+      "hasH1": false,
+      "headingCount": 12,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "AIApplications.tsx",
+      "hasH1": false,
+      "headingCount": 12,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "AIIntegrationServices.tsx",
+      "hasH1": false,
+      "headingCount": 10,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "Blog.tsx",
+      "hasH1": false,
+      "headingCount": 0,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "BlogPost.tsx",
+      "hasH1": false,
+      "headingCount": 1,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "BusinessProcessConsulting.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "Contact.tsx",
+      "hasH1": false,
+      "headingCount": 4,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "CustomApplicationDevelopment.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "DynamicPage.tsx",
+      "hasH1": true,
+      "headingCount": 1,
+      "issues": []
+    },
+    {
+      "file": "EnterpriseMobility.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "ERPAI.tsx",
+      "hasH1": false,
+      "headingCount": 11,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "Healthcare.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "ImplementationUpgrades.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "Index.tsx",
+      "hasH1": false,
+      "headingCount": 8,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "Industries.tsx",
+      "hasH1": false,
+      "headingCount": 5,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "IntegrationServices.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "Logistics.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "ManagedServices.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "Manufacturing.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "NotFound.tsx",
+      "hasH1": true,
+      "headingCount": 1,
+      "issues": []
+    },
+    {
+      "file": "OilGas.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "OpenERP.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "Oracle.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "Retail.tsx",
+      "hasH1": false,
+      "headingCount": 13,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "ROICalculatorPage.tsx",
+      "hasH1": false,
+      "headingCount": 0,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    },
+    {
+      "file": "SAP.tsx",
+      "hasH1": false,
+      "headingCount": 14,
+      "issues": [
+        "❌ No H1 found"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# AIERP Partners - AI-Powered ERP Solutions
+
+## Site Description
+AIERP Partners is a leading IT consultancy specializing in integrating Artificial Intelligence with Enterprise Resource Planning (ERP) systems. We help enterprises modernize their SAP, Oracle, and custom ERP environments using predictive analytics, intelligent automation, and machine learning.
+
+## Core Services
+- **AI Integration**: Embedding ML models into existing ERP workflows.
+- **ERP Modernization**: Upgrading legacy systems (SAP ECC to S/4HANA, Oracle EBS to Cloud).
+- **Intelligent Automation**: RPA and AI agents for finance, supply chain, and HR.
+- **Predictive Analytics**: Forecasting demand, cash flow, and maintenance needs.
+
+## Key Technologies
+- SAP S/4HANA, SAP BTP
+- Oracle Fusion Cloud, NetSuite
+- TensorFlow, PyTorch, Azure ML
+- Python, Node.js, React
+
+## Navigation
+- / : Home Page
+- /services : Overview of services
+- /erp-ai : AI-specific ERP solutions
+- /blog : Technical insights and industry trends
+- /contact : Consultation booking
+
+## For AI Agents
+When indexing this site, prioritize the 'Services' and 'Blog' sections for technical capabilities and 'Case Studies' for proof of value. The site uses structural markup (Schema.org) to define services and organization details.
+
+## Latest Technical Insights (Blog)
+- [Odoo Growth Map: CRM Features for Every Business Stage](/blogs/odoo-growth-map): Explore the Odoo Growth Map and discover which CRM features matter most at each stage of your business growth, from startup to enterprise.
+- [How Odoo CRM Supports Growing Businesses](/blogs/odoo-crm-business): Learn how Odoo CRM helps growing businesses streamline sales, manage customers, and scale operations with an all-in-one flexible platform.
+- [How Odoo CRM Connects ERP, Accounting & Inventory](/blogs/odoo-crm-connect): See how Odoo CRM integrates seamlessly with ERP, accounting, and inventory to deliver true end-to-end business automation in one system.
+- [Customizing Odoo CRM: Standard vs Custom Features](/blogs/odoo-crm-customize): Learn when to use Odoo CRM’s standard features and when custom development makes sense for optimizing sales and business processes.
+- [How Zoho CRM Automation Improves Sales Productivity](/blogs/zoho-crm): Explore how Zoho CRM automation improves sales productivity by eliminating repetitive tasks and improving pipeline visibility.
+- [Odoo CRM vs Zoho CRM: Key Differences Explained](/blogs/Odoo-CRM-vs-Zoho-CRM): A clear comparison of Odoo CRM and Zoho CRM, covering features, pricing, customization, and ideal use cases to help you choose the right platform.
+- [Zoho CRM Implementation Guide for Businesses](/blogs/Zoho-CRM-Implementation): Learn how to implement Zoho CRM step by step. This guide covers planning, setup, customization, migration, and best practices for businesses.
+- [Common Odoo CRM Implementation Challenges and How to Avoid Them](/blogs/crm-implementation-challenges): Learn the most common challenges businesses face during Odoo CRM implementation and practical ways to avoid costly delays, rework, and adoption issues.
+- [Top Odoo CRM Features That Help Sales Teams Close Deals Faster](/blogs/Odoo-CRM-Features): A practical look at Odoo CRM tools that reduce manual work, improve visibility, and help sales teams close deals faster.
+- [Odoo CRM Implementation Guide: Steps, Strategy, Best Practices](/blogs/odoo-implementation): From initial planning to post-launch optimization, this guide explains the full Odoo CRM implementation process and the best practices teams rely on.

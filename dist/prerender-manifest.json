@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-01-03T09:26:08.119Z",
+  "routes": [
+    "/",
+    "/about",
+    "/blog",
+    "/contact",
+    "/roi-calculator",
+    "/erp-ai",
+    "/oracle",
+    "/open-erp",
+    "/custom-application-development",
+    "/ai-integration-services",
+    "/ai-applications",
+    "/business-process-consulting",
+    "/implementation-upgrades",
+    "/managed-services",
+    "/integration-services",
+    "/enterprise-mobility",
+    "/industries",
+    "/manufacturing",
+    "/retail",
+    "/healthcare",
+    "/logistics",
+    "/oil-gas"
+  ],
+  "totalRoutes": 22,
+  "successCount": 22,
+  "errorCount": 0
+}

@@ -21,7 +21,21 @@ import {
   Target,
   Users,
   Brain,
-  Layers
+  Layers,
+  DollarSign,
+  FileText,
+  Cpu,
+  Cloud,
+  Server,
+  Workflow,
+  GitBranch,
+  BarChart,
+  Search,
+  MessageSquare,
+  PenTool,
+  Globe,
+  Headphones,
+  LineChart
 } from "lucide-react";
 
 const ImplementationUpgrades = () => {
@@ -57,18 +71,18 @@ const ImplementationUpgrades = () => {
               Get Implementation Quote
               <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
             </Button>
-            <Button size="lg" variant="outline" className="border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white px-8 sm:px-10 h-14 sm:h-16 text-base sm:text-xl rounded-full w-full sm:w-auto min-h-[48px]" onClick={() => window.open('https://calendly.com/dearjafer/30min', '_blank')}>
+            <Button size="lg" variant="outline" className="border-cyan-500/30 text-cyan-300 hover:bg-cyan-500/10 hover:text-white px-8 sm:px-10 h-14 sm:h-16 text-base sm:text-xl rounded-full w-full sm:w-auto min-h-[48px]" onClick={() => window.open('https://calendly.com/dearjafer/30min', '_blank')}>
               See Success Stories
             </Button>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-xs sm:text-sm mt-6 sm:mt-8 text-slate-300">
             <div className="flex items-center gap-2">
-              <CheckCircle2 className="h-5 w-5 text-green-400" />
+              <CheckCircle2 className="h-5 w-5 text-cyan-400" />
               <span>98% on-time delivery</span>
             </div>
             <div className="flex items-center gap-2">
-              <CheckCircle2 className="h-5 w-5 text-green-400" />
+              <CheckCircle2 className="h-5 w-5 text-cyan-400" />
               <span>Zero downtime guarantee</span>
             </div>
           </div>
@@ -89,72 +103,232 @@ const ImplementationUpgrades = () => {
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-red-50 flex items-center justify-center mb-6">
-                    <AlertTriangle className="h-8 w-8 text-red-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <AlertTriangle className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">Scope Creep Kills Budgets</h3>
                   <p className="text-slate-500">Projects balloon from $500K to $2M with no end in sight.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Unclear requirements leading to endless changes
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Lack of change control processes
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Unmanaged stakeholder expectations
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      No clear definition of project completion
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <Target className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">Fixed-Scope Methodology</h3>
-                  <p className="text-blue-100">Clear requirements, phased approach, and change control that protects your budget.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <Target className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">Fixed-Scope Methodology</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">Clear requirements, phased approach, and change control that protects your budget.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Comprehensive requirement gathering upfront</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Strict change control with approval workflows</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Clear project scope documentation and sign-off</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Phased implementation with measurable milestones</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-orange-50 flex items-center justify-center mb-6">
-                    <Clock className="h-8 w-8 text-orange-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <Clock className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">Go-Live Delays Are Endless</h3>
                   <p className="text-slate-500">18-month projects turn into 3-year nightmares.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Poor project planning and unrealistic timelines
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Resource allocation and scheduling issues
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Lack of progress tracking and accountability
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Insufficient testing and quality assurance cycles
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <Rocket className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">Agile Implementation</h3>
-                  <p className="text-blue-100">Weekly milestones, rapid iteration, and guaranteed go-live dates.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <Rocket className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">Agile Implementation</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">Weekly milestones, rapid iteration, and guaranteed go-live dates.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Two-week sprint cycles with clear deliverables</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Real-time progress tracking and reporting</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Automated testing and quality assurance</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Predictive analytics for timeline management</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-purple-50 flex items-center justify-center mb-6">
-                    <Database className="h-8 w-8 text-purple-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <Database className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">Data Migration Disasters</h3>
                   <p className="text-slate-500">Corrupted data, missing records, and angry users on day one.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Incomplete data mapping and transformation
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Lack of data validation and quality checks
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Manual data entry errors and inconsistencies
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      No rollback strategy for failed migrations
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <Shield className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">AI-Validated Migration</h3>
-                  <p className="text-blue-100">Automated data cleansing, validation, and reconciliation with 99.9% accuracy.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <Shield className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">AI-Validated Migration</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">Automated data cleansing, validation, and reconciliation with 99.9% accuracy.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>AI-powered data mapping and transformation</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Automated data validation and quality assurance</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Real-time reconciliation and error detection</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Automated rollback and recovery procedures</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-blue-50 flex items-center justify-center mb-6">
-                    <Users className="h-8 w-8 text-blue-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <Users className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">User Adoption Fails</h3>
                   <p className="text-slate-500">Employees revolt against the new system. Back to spreadsheets.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Inadequate user training and documentation
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Complex user interfaces and poor UX design
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Resistance to change and lack of buy-in
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Insufficient post-go-live support and handholding
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <Sparkles className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">Change Management</h3>
-                  <p className="text-blue-100">Comprehensive training, support, and AI assistants that make adoption effortless.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <Sparkles className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">Change Management</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">Comprehensive training, support, and AI assistants that make adoption effortless.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Role-based training with interactive simulations</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>AI-powered virtual assistants for user support</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Stakeholder engagement and communication plans</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Continuous feedback and improvement loops</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
@@ -178,40 +352,40 @@ const ImplementationUpgrades = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 mb-12 sm:mb-16">
             <Card className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="h-2 w-full bg-gradient-to-r from-green-400 to-emerald-400" />
+              <div className="h-2 w-full bg-gradient-to-r from-cyan-400 to-blue-400" />
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <CheckCircle2 className="h-8 w-8 text-green-500" />
+                <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <CheckCircle2 className="h-8 w-8 text-cyan-600" />
                 </div>
                 <div className="text-5xl font-bold text-slate-900 mb-2">98%</div>
                 <div className="text-slate-600 font-medium">On-Time Delivery</div>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="h-2 w-full bg-gradient-to-r from-cyan-400 to-blue-400" />
+              <div className="h-2 w-full bg-gradient-to-r from-cyan-500 to-blue-500" />
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Shield className="h-8 w-8 text-cyan-500" />
+                  <Shield className="h-8 w-8 text-cyan-600" />
                 </div>
                 <div className="text-5xl font-bold text-slate-900 mb-2">100%</div>
                 <div className="text-slate-600 font-medium">Zero Downtime</div>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="h-2 w-full bg-gradient-to-r from-purple-400 to-pink-400" />
+              <div className="h-2 w-full bg-gradient-to-r from-cyan-600 to-blue-600" />
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-purple-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Rocket className="h-8 w-8 text-purple-500" />
+                <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Rocket className="h-8 w-8 text-cyan-600" />
                 </div>
                 <div className="text-5xl font-bold text-slate-900 mb-2">150+</div>
                 <div className="text-slate-600 font-medium">Successful Projects</div>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="h-2 w-full bg-gradient-to-r from-orange-400 to-red-400" />
+              <div className="h-2 w-full bg-gradient-to-r from-blue-500 to-cyan-500" />
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-orange-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <TrendingUp className="h-8 w-8 text-orange-500" />
+                <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <TrendingUp className="h-8 w-8 text-cyan-600" />
                 </div>
                 <div className="text-5xl font-bold text-slate-900 mb-2">25%</div>
                 <div className="text-slate-600 font-medium">Under Budget Avg.</div>
@@ -226,7 +400,7 @@ const ImplementationUpgrades = () => {
               </div>
               <div className="flex-1">
                 <p className="text-lg text-slate-700 mb-4 italic leading-relaxed">
-                  "Outstanding project delivery with importance to details. Best blend of technology, business and management skills. Excellent team and had clear great project vision"
+                  "Outstanding project delivery with importance to details. Best blend of technology, business and management skills. Excellent team and had clear great project vision. Their implementation methodology ensured zero downtime and seamless adoption across our organization."
                 </p>
                 <div className="font-semibold text-slate-900">IT Director</div>
                 <div className="text-slate-600">SME Solutions, Implementation partner</div>
@@ -244,55 +418,99 @@ const ImplementationUpgrades = () => {
             <p className="text-base sm:text-lg md:text-xl text-slate-600 px-4 sm:px-0">Full-stack ERP expertise with AI integration</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {[
               {
                 title: "SAP S/4HANA Implementations",
                 description: "Greenfield implementations and brownfield migrations from ECC to S/4HANA with embedded AI for finance, supply chain, and manufacturing.",
-                icon: Database,
-                color: "from-cyan-400 to-blue-400"
+                icon: Server,
+                color: "from-cyan-400 to-blue-400",
+                points: [
+                  "End-to-end SAP S/4HANA implementation",
+                  "Legacy ECC to S/4HANA migration",
+                  "FI/CO, MM, SD, PP module configuration",
+                  "Fiori UX and AI integration"
+                ]
               },
               {
                 title: "Oracle Cloud Migrations",
                 description: "Move from Oracle E-Business Suite to Fusion Cloud with zero downtime. AI-powered data migration and process optimization.",
-                icon: Layers,
-                color: "from-blue-400 to-indigo-400"
+                icon: Cloud,
+                color: "from-blue-400 to-cyan-400",
+                points: [
+                  "Oracle EBS to Fusion Cloud migration",
+                  "Financials, Procurement, SCM modules",
+                  "AI-powered data transformation",
+                  "Zero-downtime cutover strategies"
+                ]
               },
               {
                 title: "Custom ERP Development",
                 description: "Build bespoke ERP solutions from scratch with modern tech stacks, cloud-native architecture, and AI automation built in.",
-                icon: Settings,
-                color: "from-purple-400 to-pink-400"
+                icon: PenTool,
+                color: "from-cyan-500 to-blue-500",
+                points: [
+                  "Custom ERP solution architecture",
+                  "Cloud-native microservices development",
+                  "AI-powered workflow automation",
+                  "Real-time analytics and reporting"
+                ]
               },
               {
                 title: "ERP Upgrades & Modernization",
                 description: "Upgrade legacy systems to latest versions while adding AI capabilities for predictive analytics and intelligent automation.",
-                icon: Rocket,
-                color: "from-green-400 to-emerald-400"
+                icon: GitBranch,
+                color: "from-blue-500 to-cyan-500",
+                points: [
+                  "Legacy ERP version upgrades",
+                  "Cloud migration and modernization",
+                  "API and integration enhancements",
+                  "AI capability integration"
+                ]
               },
               {
                 title: "Data Migration Services",
                 description: "AI-validated data cleansing, transformation, and migration with automated reconciliation and quality assurance.",
-                icon: Shield,
-                color: "from-orange-400 to-red-400"
+                icon: Database,
+                color: "from-cyan-600 to-blue-600",
+                points: [
+                  "Automated data extraction and mapping",
+                  "AI-powered data validation",
+                  "Real-time quality assurance",
+                  "Comprehensive reconciliation"
+                ]
               },
               {
                 title: "Post-Go-Live Support",
                 description: "24/7 hypercare, continuous optimization, and AI-powered monitoring to ensure long-term success and ROI.",
-                icon: Users,
-                color: "from-teal-400 to-cyan-400"
+                icon: Headphones,
+                color: "from-blue-600 to-cyan-600",
+                points: [
+                  "24/7 production support",
+                  "Performance optimization",
+                  "User adoption enhancement",
+                  "Continuous improvement"
+                ]
               }
             ].map((service, i) => (
               <Card key={i} className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden group">
                 <div className={`h-2 w-full bg-gradient-to-r ${service.color}`} />
                 <CardContent className="p-8">
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="p-3 rounded-xl bg-slate-100 group-hover:scale-110 transition-transform">
-                      <service.icon className="h-8 w-8 text-slate-700" />
+                    <div className="p-3 rounded-xl bg-cyan-50 group-hover:scale-110 transition-transform">
+                      <service.icon className="h-8 w-8 text-cyan-600" />
                     </div>
                     <h3 className="text-2xl font-bold text-slate-900 flex-1">{service.title}</h3>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">{service.description}</p>
+                  <p className="text-slate-600 leading-relaxed mb-4">{service.description}</p>
+                  <ul className="space-y-2">
+                    {service.points.map((point, index) => (
+                      <li key={index} className="flex items-start gap-2 text-sm text-slate-600">
+                        <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5 flex-shrink-0"></div>
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             ))}
@@ -313,16 +531,32 @@ const ImplementationUpgrades = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-12">
             {[
-              { metric: "AI-First", label: "Every Implementation", icon: Brain },
-              { metric: "Agile", label: "Weekly Milestones", icon: Zap },
-              { metric: "Fixed-Price", label: "Options Available", icon: Shield }
+              { 
+                metric: "AI-First", 
+                label: "Every Implementation", 
+                icon: Brain,
+                description: "AI integration from day one for predictive insights and automation"
+              },
+              { 
+                metric: "Agile", 
+                label: "Weekly Milestones", 
+                icon: Zap,
+                description: "Transparent progress with regular deliverables and feedback"
+              },
+              { 
+                metric: "Fixed-Price", 
+                label: "Options Available", 
+                icon: Shield,
+                description: "Budget protection with guaranteed scope and deliverables"
+              }
             ].map((stat, i) => (
               <div key={i} className="text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
                   <stat.icon className="h-10 w-10 text-cyan-600" />
                 </div>
-                <div className="text-5xl font-bold text-slate-900 mb-3">{stat.metric}</div>
-                <div className="text-lg text-slate-600 font-medium">{stat.label}</div>
+                <div className="text-5xl font-bold text-slate-900 mb-2">{stat.metric}</div>
+                <div className="text-lg font-semibold text-slate-700 mb-2">{stat.label}</div>
+                <div className="text-slate-600">{stat.description}</div>
               </div>
             ))}
           </div>

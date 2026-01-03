@@ -20,7 +20,17 @@ import {
   BarChart3,
   Lightbulb,
   Rocket,
-  Shield
+  Shield,
+  DollarSign,
+  Clock,
+  FileText,
+  Workflow,
+  Cpu,
+  Layers,
+  Search,
+  GitBranch,
+  PenTool,
+  Cloud
 } from "lucide-react";
 
 import SEO from "@/components/SEO";
@@ -35,18 +45,18 @@ const BusinessProcessConsulting = () => {
         canonicalUrl="https://www.aierppartners.com/business-process-consulting"
         breadcrumbs={[
           {
-                    name: "Home",
-                    url: "/"
+            name: "Home",
+            url: "/"
           },
           {
-                    name: "Services",
-                    url: "/#services"
+            name: "Services",
+            url: "/#services"
           },
           {
-                    name: "Business Process Consulting",
-                    url: "/business-process-consulting"
+            name: "Business Process Consulting",
+            url: "/business-process-consulting"
           }
-]}
+        ]}
         schema={{
           "@context": "https://schema.org",
           "@type": "Service",
@@ -89,18 +99,18 @@ const BusinessProcessConsulting = () => {
               Get Process Assessment
               <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
             </Button>
-            <Button size="lg" variant="outline" className="border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white px-8 sm:px-10 h-14 sm:h-16 text-base sm:text-xl rounded-full w-full sm:w-auto min-h-[48px]" onClick={() => window.open('https://calendly.com/dearjafer/30min', '_blank')}>
+            <Button size="lg" variant="outline" className="border-cyan-500/30 text-cyan-300 hover:bg-cyan-500/10 hover:text-white px-8 sm:px-10 h-14 sm:h-16 text-base sm:text-xl rounded-full w-full sm:w-auto min-h-[48px]" onClick={() => window.open('https://calendly.com/dearjafer/30min', '_blank')}>
               View Case Studies
             </Button>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-xs sm:text-sm mt-6 sm:mt-8 text-slate-300">
             <div className="flex items-center gap-2">
-              <CheckCircle2 className="h-5 w-5 text-green-400" />
+              <CheckCircle2 className="h-5 w-5 text-cyan-400" />
               <span>Big4 methodology</span>
             </div>
             <div className="flex items-center gap-2">
-              <CheckCircle2 className="h-5 w-5 text-green-400" />
+              <CheckCircle2 className="h-5 w-5 text-cyan-400" />
               <span>AI-powered insights</span>
             </div>
           </div>
@@ -121,72 +131,232 @@ const BusinessProcessConsulting = () => {
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-red-50 flex items-center justify-center mb-6">
-                    <Settings className="h-8 w-8 text-red-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <Settings className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">Manual Processes Everywhere</h3>
                   <p className="text-slate-500">Teams waste hours on repetitive tasks that should be automated.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Manual data entry across multiple systems
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Email-based approval chains causing delays
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Spreadsheet dependency for critical reporting
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      No standardized procedures for common tasks
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <Zap className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">AI-Powered Automation</h3>
-                  <p className="text-blue-100">Intelligent workflows that run 24/7 with zero human intervention.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <Zap className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">AI-Powered Automation</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">Intelligent workflows that run 24/7 with zero human intervention.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Automated data capture and processing</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Intelligent workflow routing and approval</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Real-time reporting and dashboard automation</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Self-healing processes with exception handling</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-orange-50 flex items-center justify-center mb-6">
-                    <BarChart3 className="h-8 w-8 text-orange-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <BarChart3 className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">No Visibility Into Performance</h3>
                   <p className="text-slate-500">You can't optimize what you can't measure.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Limited real-time performance tracking
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Manual KPI calculation and reporting
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      No predictive insights for decision making
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Siloed data preventing comprehensive analysis
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <LineChart className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">Real-Time Analytics</h3>
-                  <p className="text-blue-100">Live dashboards with predictive insights and KPI tracking.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <LineChart className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">Real-Time Analytics</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">Live dashboards with predictive insights and KPI tracking.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Real-time process performance monitoring</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Automated KPI calculation and reporting</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Predictive analytics for trend forecasting</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Cross-functional data integration and insights</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-purple-50 flex items-center justify-center mb-6">
-                    <Users className="h-8 w-8 text-purple-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <Users className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">Siloed Departments</h3>
                   <p className="text-slate-500">Finance, ops, and sales don't talk to each other.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Department-specific tools with no integration
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Duplicate data entry across teams
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Lack of cross-functional process visibility
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Manual handoffs causing delays and errors
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <Rocket className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">Unified Operations</h3>
-                  <p className="text-blue-100">End-to-end process integration with seamless data flow.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <Rocket className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">Unified Operations</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">End-to-end process integration with seamless data flow.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Integrated systems with automated data sync</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Cross-functional workflow automation</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Unified data repository for all departments</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Collaborative process design and improvement</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-blue-50 flex items-center justify-center mb-6">
-                    <Target className="h-8 w-8 text-blue-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <Target className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">Reactive Decision Making</h3>
                   <p className="text-slate-500">Always putting out fires instead of preventing them.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Decisions based on historical data, not trends
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Manual data gathering for strategic planning
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      No early warning systems for potential issues
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Inability to simulate process changes before implementation
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <Brain className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">Predictive Intelligence</h3>
-                  <p className="text-blue-100">AI forecasts issues before they happen, enabling proactive action.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <Brain className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">Predictive Intelligence</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">AI forecasts issues before they happen, enabling proactive action.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>AI-driven predictive analytics for risk management</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Automated early warning systems and alerts</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Scenario modeling for strategic planning</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Real-time decision support with AI recommendations</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
@@ -210,40 +380,40 @@ const BusinessProcessConsulting = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 mb-12 sm:mb-16">
             <Card className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="h-2 w-full bg-gradient-to-r from-green-400 to-emerald-400" />
+              <div className="h-2 w-full bg-gradient-to-r from-cyan-400 to-blue-400" />
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <TrendingUp className="h-8 w-8 text-green-500" />
+                <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <TrendingUp className="h-8 w-8 text-cyan-600" />
                 </div>
                 <div className="text-5xl font-bold text-slate-900 mb-2">40%</div>
                 <div className="text-slate-600 font-medium">Faster Cycle Times</div>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="h-2 w-full bg-gradient-to-r from-cyan-400 to-blue-400" />
+              <div className="h-2 w-full bg-gradient-to-r from-cyan-500 to-blue-500" />
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Zap className="h-8 w-8 text-cyan-500" />
+                  <Zap className="h-8 w-8 text-cyan-600" />
                 </div>
                 <div className="text-5xl font-bold text-slate-900 mb-2">60%</div>
                 <div className="text-slate-600 font-medium">Less Manual Work</div>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="h-2 w-full bg-gradient-to-r from-purple-400 to-pink-400" />
+              <div className="h-2 w-full bg-gradient-to-r from-cyan-600 to-blue-600" />
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-purple-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <BarChart3 className="h-8 w-8 text-purple-500" />
+                <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <BarChart3 className="h-8 w-8 text-cyan-600" />
                 </div>
                 <div className="text-5xl font-bold text-slate-900 mb-2">95%</div>
                 <div className="text-slate-600 font-medium">Process Accuracy</div>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="h-2 w-full bg-gradient-to-r from-orange-400 to-red-400" />
+              <div className="h-2 w-full bg-gradient-to-r from-blue-500 to-cyan-500" />
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-orange-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Award className="h-8 w-8 text-orange-500" />
+                <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Award className="h-8 w-8 text-cyan-600" />
                 </div>
                 <div className="text-5xl font-bold text-slate-900 mb-2">$2M+</div>
                 <div className="text-slate-600 font-medium">Avg. Annual Savings</div>
@@ -258,7 +428,7 @@ const BusinessProcessConsulting = () => {
               </div>
               <div className="flex-1">
                 <p className="text-lg text-slate-700 mb-4 italic leading-relaxed">
-                  "Ai erp partners Experts did a great job and I would highly recommend them. They provided great service to our clients and represented us well"
+                  "AIERP Partners did a great job and I would highly recommend them. They provided great service to our clients and represented us well. Their process optimization transformed our operations and delivered measurable ROI within months."
                 </p>
                 <div className="font-semibold text-slate-900">IT Director</div>
                 <div className="text-slate-600">T-Systems</div>
@@ -276,55 +446,99 @@ const BusinessProcessConsulting = () => {
             <p className="text-base sm:text-lg md:text-xl text-slate-600 px-4 sm:px-0">End-to-end process transformation powered by AI</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {[
               {
                 title: "Process Discovery & Mapping",
                 description: "We analyze your current state operations, identify bottlenecks, and map opportunities for AI-powered optimization across all business functions.",
-                icon: Lightbulb,
-                color: "from-cyan-400 to-blue-400"
+                icon: Search,
+                color: "from-cyan-400 to-blue-400",
+                points: [
+                  "Comprehensive process inventory and documentation",
+                  "Bottleneck identification and root cause analysis",
+                  "Value stream mapping across departments",
+                  "Process maturity assessment and benchmarking"
+                ]
               },
               {
                 title: "AI Strategy & Roadmap",
                 description: "Design a transformation roadmap with clear priorities, ROI projections, and phased implementation plans tailored to your business goals.",
                 icon: Target,
-                color: "from-blue-400 to-indigo-400"
+                color: "from-blue-400 to-cyan-400",
+                points: [
+                  "AI opportunity assessment and prioritization",
+                  "ROI modeling and business case development",
+                  "Phased implementation roadmap creation",
+                  "Technology stack evaluation and recommendation"
+                ]
               },
               {
                 title: "Workflow Automation",
                 description: "Implement intelligent automation for repetitive tasks, approvals, data entry, and reconciliation—freeing your team for strategic work.",
-                icon: Zap,
-                color: "from-purple-400 to-pink-400"
+                icon: Workflow,
+                color: "from-cyan-500 to-blue-500",
+                points: [
+                  "RPA and intelligent process automation",
+                  "Automated approval workflows and routing",
+                  "OCR and document processing automation",
+                  "Integration with existing ERP and CRM systems"
+                ]
               },
               {
                 title: "Predictive Analytics Integration",
                 description: "Embed AI models for demand forecasting, risk prediction, and trend analysis directly into your ERP workflows for real-time insights.",
                 icon: Brain,
-                color: "from-green-400 to-emerald-400"
+                color: "from-blue-500 to-cyan-500",
+                points: [
+                  "Predictive modeling for demand and inventory",
+                  "AI-powered risk assessment and management",
+                  "Real-time anomaly detection and alerts",
+                  "Trend analysis and forecasting integration"
+                ]
               },
               {
                 title: "Change Management",
                 description: "Ensure successful adoption with comprehensive training, stakeholder alignment, and ongoing support for your transformation journey.",
                 icon: Users,
-                color: "from-orange-400 to-red-400"
+                color: "from-cyan-600 to-blue-600",
+                points: [
+                  "Stakeholder engagement and communication plans",
+                  "Comprehensive training program development",
+                  "Adoption metrics and success measurement",
+                  "Continuous improvement and feedback loops"
+                ]
               },
               {
                 title: "Continuous Optimization",
                 description: "Monitor performance, refine processes, and evolve AI models to maintain competitive advantage as your business scales.",
                 icon: TrendingUp,
-                color: "from-teal-400 to-cyan-400"
+                color: "from-blue-600 to-cyan-600",
+                points: [
+                  "Performance monitoring and KPI tracking",
+                  "Regular process reviews and optimization",
+                  "AI model retraining and enhancement",
+                  "Scalability planning and architecture"
+                ]
               }
             ].map((service, i) => (
               <Card key={i} className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden group">
                 <div className={`h-2 w-full bg-gradient-to-r ${service.color}`} />
                 <CardContent className="p-8">
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="p-3 rounded-xl bg-slate-100 group-hover:scale-110 transition-transform">
-                      <service.icon className="h-8 w-8 text-slate-700" />
+                    <div className="p-3 rounded-xl bg-cyan-50 group-hover:scale-110 transition-transform">
+                      <service.icon className="h-8 w-8 text-cyan-600" />
                     </div>
                     <h3 className="text-2xl font-bold text-slate-900 flex-1">{service.title}</h3>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">{service.description}</p>
+                  <p className="text-slate-600 leading-relaxed mb-4">{service.description}</p>
+                  <ul className="space-y-2">
+                    {service.points.map((point, index) => (
+                      <li key={index} className="flex items-start gap-2 text-sm text-slate-600">
+                        <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5 flex-shrink-0"></div>
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             ))}
@@ -345,16 +559,17 @@ const BusinessProcessConsulting = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-12">
             {[
-              { metric: "15+ Years", label: "Combined ERP Experience", icon: Award },
-              { metric: "Big4", label: "Methodology & Standards", icon: Shield },
-              { metric: "100%", label: "AI-Powered Solutions", icon: Brain }
+              { metric: "15+ Years", label: "Combined ERP Experience", icon: Award, description: "Deep industry expertise across multiple sectors" },
+              { metric: "Big4", label: "Methodology & Standards", icon: Shield, description: "Rigorous approach with proven methodologies" },
+              { metric: "100%", label: "AI-Powered Solutions", icon: Brain, description: "Cutting-edge technology delivering measurable results" }
             ].map((stat, i) => (
               <div key={i} className="text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
                   <stat.icon className="h-10 w-10 text-cyan-600" />
                 </div>
-                <div className="text-5xl font-bold text-slate-900 mb-3">{stat.metric}</div>
-                <div className="text-lg text-slate-600 font-medium">{stat.label}</div>
+                <div className="text-5xl font-bold text-slate-900 mb-2">{stat.metric}</div>
+                <div className="text-lg font-semibold text-slate-700 mb-2">{stat.label}</div>
+                <div className="text-slate-600">{stat.description}</div>
               </div>
             ))}
           </div>

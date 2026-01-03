@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2, Code, TrendingUp, Shield, Zap, Users, Clock, DollarSign, AlertTriangle, Boxes, Sparkles, Brain, Unlock } from "lucide-react";
+import { ArrowRight, CheckCircle2, Code, TrendingUp, Shield, Zap, Users, Clock, DollarSign, AlertTriangle, Boxes, Sparkles, Brain, Unlock, Lock, Database, Cpu, FileText, Globe, BarChart, Workflow, Layers, Server } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -40,18 +40,18 @@ const OpenERP = () => {
               See Cost Comparison Calculator
               <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
             </Button>
-            <Button size="lg" variant="outline" className="border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white px-8 sm:px-10 h-14 sm:h-16 text-base sm:text-xl rounded-full w-full sm:w-auto min-h-[48px]" onClick={() => window.open('https://calendly.com/dearjafer/30min', '_blank')}>
+            <Button size="lg" variant="outline" className="border-cyan-500/30 text-cyan-300 hover:bg-cyan-500/10 hover:text-white px-8 sm:px-10 h-14 sm:h-16 text-base sm:text-xl rounded-full w-full sm:w-auto min-h-[48px]" onClick={() => window.open('https://calendly.com/dearjafer/30min', '_blank')}>
               Watch Live Demo
             </Button>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-xs sm:text-sm mt-6 sm:mt-8 text-slate-300">
             <div className="flex items-center gap-2">
-              <CheckCircle2 className="h-5 w-5 text-green-400" />
+              <CheckCircle2 className="h-5 w-5 text-cyan-400" />
               <span>No vendor lock-in</span>
             </div>
             <div className="flex items-center gap-2">
-              <CheckCircle2 className="h-5 w-5 text-green-400" />
+              <CheckCircle2 className="h-5 w-5 text-cyan-400" />
               <span>Full source code access</span>
             </div>
           </div>
@@ -72,72 +72,232 @@ const OpenERP = () => {
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-red-50 flex items-center justify-center mb-6">
-                    <DollarSign className="h-8 w-8 text-red-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <DollarSign className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">Paying for Features You'll Never Use</h3>
                   <p className="text-slate-500">Enterprise ERP vendors force you to buy bloated suites.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Mandatory bundled modules with redundant features
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Annual license fees regardless of usage
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Hidden costs for additional user licenses
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Premium pricing for basic functionality
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <Unlock className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">Pay Only for What You Need</h3>
-                  <p className="text-blue-100">Open source lets you choose modules and build exactly what you want.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <Unlock className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">Pay Only for What You Need</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">Open source lets you choose modules and build exactly what you want.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Modular architecture - activate only what you use</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Transparent, predictable pricing structure</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>No mandatory annual license renewals</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Community-supported free core features</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-orange-50 flex items-center justify-center mb-6">
-                    <AlertTriangle className="h-8 w-8 text-orange-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <AlertTriangle className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">Vendor Upgrade Schedules Control You</h3>
                   <p className="text-slate-500">Upgrade when they say, not when you're ready.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Forced migrations to new versions
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Breaking changes in vendor updates
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Extended downtime during upgrades
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Customization conflicts with vendor updates
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <Shield className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">You Control the Timeline</h3>
-                  <p className="text-blue-100">Open source means you upgrade on your schedule with full control.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <Shield className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">You Control the Timeline</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">Open source means you upgrade on your schedule with full control.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Complete control over upgrade schedules</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>No forced migrations or breaking changes</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Staged rollout options for testing</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Full backward compatibility control</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-purple-50 flex items-center justify-center mb-6">
-                    <Code className="h-8 w-8 text-purple-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <Code className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">Integration Costs Are Insane</h3>
                   <p className="text-slate-500">Enterprise vendors charge $50K+ for basic integrations.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Proprietary APIs with expensive access fees
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Limited third-party system compatibility
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Vendor lock-in for custom development
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      High-cost middleware solutions required
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <Zap className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">API-First Architecture</h3>
-                  <p className="text-blue-100">Open source APIs and webhooks let you integrate anything for free.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <Zap className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">API-First Architecture</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">Open source APIs and webhooks let you integrate anything for free.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Standard REST APIs with full documentation</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Webhook support for real-time sync</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Pre-built connectors for popular systems</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Custom integration development flexibility</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
             <FlipCard
               frontContent={
                 <>
-                  <div className="h-16 w-16 rounded-2xl bg-blue-50 flex items-center justify-center mb-6">
-                    <Users className="h-8 w-8 text-blue-500" />
+                  <div className="h-16 w-16 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6">
+                    <Users className="h-8 w-8 text-cyan-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">Support Tickets Go Into Black Holes</h3>
                   <p className="text-slate-500">Wait weeks for answers about your own system.</p>
+                  <ul className="mt-4 text-sm text-slate-600 space-y-1 text-left">
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Slow response times from tiered support
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      Limited access to technical experts
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      No visibility into bug fix priorities
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5"></div>
+                      High-cost premium support tiers
+                    </li>
+                  </ul>
                 </>
               }
               backContent={
                 <>
-                  <Sparkles className="h-12 w-12 mb-4 text-white/90" />
-                  <h3 className="text-2xl font-bold mb-2">Community + Enterprise Support</h3>
-                  <p className="text-blue-100">Get answers in hours with full code transparency and our 24/7 support.</p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="p-2 rounded-lg bg-white/20">
+                      <Sparkles className="h-10 w-10 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold text-white">Community + Enterprise Support</h3>
+                  </div>
+                  <p className="text-blue-100 mb-4">Get answers in hours with full code transparency and our 24/7 support.</p>
+                  <ul className="space-y-2 text-left">
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Access to massive open source communities</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Full code transparency for self-help</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Priority enterprise support from our team</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-blue-50">
+                      <CheckCircle2 className="w-4 h-4 mt-0.5 shrink-0" />
+                      <span>Direct access to core developers</span>
+                    </li>
+                  </ul>
                 </>
               }
             />
@@ -161,30 +321,30 @@ const OpenERP = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
             <Card className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="h-2 w-full bg-gradient-to-r from-green-400 to-emerald-400" />
+              <div className="h-2 w-full bg-gradient-to-r from-cyan-400 to-blue-400" />
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <DollarSign className="h-8 w-8 text-green-500" />
+                <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <DollarSign className="h-8 w-8 text-cyan-600" />
                 </div>
                 <div className="text-5xl font-bold text-slate-900 mb-2">87%</div>
                 <div className="text-slate-600 font-medium">Lower Total Cost</div>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="h-2 w-full bg-gradient-to-r from-cyan-400 to-blue-400" />
+              <div className="h-2 w-full bg-gradient-to-r from-cyan-500 to-blue-500" />
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Clock className="h-8 w-8 text-cyan-500" />
+                  <Clock className="h-8 w-8 text-cyan-600" />
                 </div>
                 <div className="text-5xl font-bold text-slate-900 mb-2">3x</div>
                 <div className="text-slate-600 font-medium">Faster Customization</div>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="h-2 w-full bg-gradient-to-r from-purple-400 to-pink-400" />
+              <div className="h-2 w-full bg-gradient-to-r from-cyan-600 to-blue-600" />
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-purple-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Boxes className="h-8 w-8 text-purple-500" />
+                <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Boxes className="h-8 w-8 text-cyan-600" />
                 </div>
                 <div className="text-5xl font-bold text-slate-900 mb-2">100%</div>
                 <div className="text-slate-600 font-medium">Data Ownership</div>
@@ -221,43 +381,81 @@ const OpenERP = () => {
                 title: "No Vendor Lock-In, Ever",
                 description: "Own your ERP completely. Switch hosting providers, hire any developer, export all data anytime. Your business, your rules.",
                 icon: Shield,
-                color: "from-cyan-400 to-blue-400"
+                color: "from-cyan-400 to-blue-400",
+                points: [
+                  "Complete data sovereignty and ownership",
+                  "Freedom to choose any hosting provider",
+                  "Access to source code for custom development",
+                  "No contractual obligations or exit penalties"
+                ]
               },
               {
                 title: "AI-Powered Process Intelligence",
                 description: "We add AI layer on top of Odoo/ERPNext that learns your workflows, predicts issues, and automates repetitive tasks.",
                 icon: Brain,
-                color: "from-blue-400 to-indigo-400"
+                color: "from-cyan-500 to-blue-500",
+                points: [
+                  "Predictive analytics for inventory optimization",
+                  "Automated anomaly detection in financial data",
+                  "Intelligent workflow automation and routing",
+                  "Natural language processing for reporting"
+                ]
               },
               {
                 title: "Unlimited Customization Freedom",
                 description: "Full source code access means limitless customization. Build exactly what your business needs without vendor restrictions.",
                 icon: Code,
-                color: "from-purple-400 to-pink-400"
+                color: "from-cyan-400 to-blue-400",
+                points: [
+                  "Complete access to source code for modifications",
+                  "Custom module development without restrictions",
+                  "Integration with any third-party system",
+                  "Industry-specific feature implementation"
+                ]
               },
               {
                 title: "Predictable, Transparent Pricing",
                 description: "No surprise licensing audits or forced upgrades. Pay only for implementation and optional support. That's it.",
                 icon: DollarSign,
-                color: "from-green-400 to-emerald-400"
+                color: "from-cyan-500 to-blue-500",
+                points: [
+                  "Fixed implementation costs with clear scope",
+                  "No hidden fees or unexpected charges",
+                  "Transparent monthly/annual support pricing",
+                  "Cost savings from community contributions"
+                ]
               },
               {
                 title: "Community + Enterprise Support",
                 description: "Massive open source communities plus our 24/7 enterprise-grade support. Best of both worlds.",
                 icon: Users,
-                color: "from-orange-400 to-red-400"
+                color: "from-cyan-400 to-blue-400",
+                points: [
+                  "Access to thousands of community contributors",
+                  "Enterprise-grade SLA with 24/7 support",
+                  "Regular security updates and patches",
+                  "Knowledge sharing and best practices"
+                ]
               }
             ].map((benefit, i) => (
               <Card key={i} className="border-0 shadow-xl hover:-translate-y-2 transition-all duration-300 overflow-hidden group">
                 <div className={`h-2 w-full bg-gradient-to-r ${benefit.color}`} />
                 <CardContent className="p-8">
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="p-3 rounded-xl bg-slate-100 group-hover:scale-110 transition-transform">
-                      <benefit.icon className="h-8 w-8 text-slate-700" />
+                    <div className="p-3 rounded-xl bg-cyan-50 group-hover:scale-110 transition-transform">
+                      <benefit.icon className="h-8 w-8 text-cyan-600" />
                     </div>
                     <h3 className="text-2xl font-bold text-slate-900 flex-1">{benefit.title}</h3>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">{benefit.description}</p>
+                  <p className="text-slate-600 leading-relaxed mb-4">{benefit.description}</p>
+                  <ul className="space-y-2">
+                    {benefit.points.map((point, index) => (
+                      <li key={index} className="flex items-start gap-2 text-sm text-slate-600">
+                        <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 mt-1.5 flex-shrink-0"></div>
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             ))}

@@ -410,4 +410,34 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.aierppartners.com/blogs/right-crm</loc>
+    <lastmod>2026-01-04T10:04:49.341Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aierppartners.com/blogs/crm-for-business</loc>
+    <lastmod>2026-01-04T10:08:55.088Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aierppartners.com/blogs/consider-before-scaling</loc>
+    <lastmod>2026-01-04T10:30:22.169Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aierppartners.com/blogs/Zia-AI</loc>
+    <lastmod>2026-01-04T10:58:06.821Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.aierppartners.com/blogs/Zoho-CRM-for-Startups</loc>
+    <lastmod>2026-01-04T11:25:39.436Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

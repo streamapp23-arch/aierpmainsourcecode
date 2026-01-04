@@ -5,22 +5,62 @@
     <link>https://www.aierppartners.com</link>
     <description>Insights on AI, ERP, and Digital Transformation</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jan 2026 15:51:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 13:51:04 GMT</lastBuildDate>
     <atom:link href="https://www.aierppartners.com/rss.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title><![CDATA[Zoho CRM for Startups | Scale Faster with Smart CRM]]></title>
+      <link>https://www.aierppartners.com/blogs/Zoho-CRM-for-Startups</link>
+      <guid>https://www.aierppartners.com/blogs/Zoho-CRM-for-Startups</guid>
+      <description><![CDATA[Zoho CRM helps startups manage leads, automate sales, and grow faster with affordable, scalable CRM tools built for early-stage teams.]]></description>
+      <pubDate>Sun, 04 Jan 2026 11:25:39 GMT</pubDate>
+    </item>
+  
+    <item>
+      <title><![CDATA[How Zia AI in Zoho CRM Helps Sales Teams Work Smarter]]></title>
+      <link>https://www.aierppartners.com/blogs/Zia-AI</link>
+      <guid>https://www.aierppartners.com/blogs/Zia-AI</guid>
+      <description><![CDATA[Discover how Zia AI in Zoho CRM automates insights, predicts sales outcomes, and helps sales teams close deals faster with less effort.]]></description>
+      <pubDate>Sun, 04 Jan 2026 10:58:06 GMT</pubDate>
+    </item>
+  
+    <item>
+      <title><![CDATA[Zoho CRM Customization Limits: Key Considerations Before Scaling]]></title>
+      <link>https://www.aierppartners.com/blogs/consider-before-scaling</link>
+      <guid>https://www.aierppartners.com/blogs/consider-before-scaling</guid>
+      <description><![CDATA[Discover Zoho CRM customization limits and learn what businesses should evaluate before scaling workflows, integrations, and automation.]]></description>
+      <pubDate>Sun, 04 Jan 2026 10:30:22 GMT</pubDate>
+    </item>
+  
+    <item>
+      <title><![CDATA[Odoo CRM or Zoho CRM – Best CRM for Growing Businesses?]]></title>
+      <link>https://www.aierppartners.com/blogs/crm-for-business</link>
+      <guid>https://www.aierppartners.com/blogs/crm-for-business</guid>
+      <description><![CDATA[Choosing between Odoo CRM and Zoho CRM? Explore their strengths, limitations, and long-term ROI for scaling businesses.]]></description>
+      <pubDate>Sun, 04 Jan 2026 10:08:55 GMT</pubDate>
+    </item>
+  
+    <item>
+      <title><![CDATA[Choosing the Right CRM: A Practical Checklist for Growing Businesses]]></title>
+      <link>https://www.aierppartners.com/blogs/right-crm</link>
+      <guid>https://www.aierppartners.com/blogs/right-crm</guid>
+      <description><![CDATA[A clear, vendor-neutral checklist to help growing businesses evaluate CRM options, avoid common mistakes, and choose with confidence.]]></description>
+      <pubDate>Sun, 04 Jan 2026 10:04:49 GMT</pubDate>
+    </item>
+  
+    <item>
+      <title><![CDATA[How Odoo CRM Connects ERP, Accounting & Inventory]]></title>
+      <link>https://www.aierppartners.com/blogs/odoo-crm-connect</link>
+      <guid>https://www.aierppartners.com/blogs/odoo-crm-connect</guid>
+      <description><![CDATA[See how Odoo CRM integrates seamlessly with ERP, accounting, and inventory to deliver true end-to-end business automation in one system.]]></description>
+      <pubDate>Sat, 03 Jan 2026 06:30:00 GMT</pubDate>
+    </item>
+  
     <item>
       <title><![CDATA[How Odoo CRM Supports Growing Businesses]]></title>
       <link>https://www.aierppartners.com/blogs/odoo-crm-business</link>
       <guid>https://www.aierppartners.com/blogs/odoo-crm-business</guid>
       <description><![CDATA[Learn how Odoo CRM helps growing businesses streamline sales, manage customers, and scale operations with an all-in-one flexible platform.]]></description>
-      <pubDate>Sat, 03 Jan 2026 06:30:00 GMT</pubDate>
-    </item>
-  
-    <item>
-      <title><![CDATA[Customizing Odoo CRM: Standard vs Custom Features]]></title>
-      <link>https://www.aierppartners.com/blogs/odoo-crm-customize</link>
-      <guid>https://www.aierppartners.com/blogs/odoo-crm-customize</guid>
-      <description><![CDATA[Learn when to use Odoo CRM’s standard features and when custom development makes sense for optimizing sales and business processes.]]></description>
       <pubDate>Sat, 03 Jan 2026 06:30:00 GMT</pubDate>
     </item>
   
@@ -33,10 +73,10 @@
     </item>
   
     <item>
-      <title><![CDATA[How Odoo CRM Connects ERP, Accounting & Inventory]]></title>
-      <link>https://www.aierppartners.com/blogs/odoo-crm-connect</link>
-      <guid>https://www.aierppartners.com/blogs/odoo-crm-connect</guid>
-      <description><![CDATA[See how Odoo CRM integrates seamlessly with ERP, accounting, and inventory to deliver true end-to-end business automation in one system.]]></description>
+      <title><![CDATA[Customizing Odoo CRM: Standard vs Custom Features]]></title>
+      <link>https://www.aierppartners.com/blogs/odoo-crm-customize</link>
+      <guid>https://www.aierppartners.com/blogs/odoo-crm-customize</guid>
+      <description><![CDATA[Learn when to use Odoo CRM’s standard features and when custom development makes sense for optimizing sales and business processes.]]></description>
       <pubDate>Sat, 03 Jan 2026 06:30:00 GMT</pubDate>
     </item>
   
@@ -126,46 +166,6 @@
       <guid>https://www.aierppartners.com/blogs/Act-on-Consumer-Signals</guid>
       <description><![CDATA[Forecast Accuracy Is Not Your Real Problem: It’s ERP’s Inability to Act on Consumer Signals]]></description>
       <pubDate>Sun, 21 Dec 2025 10:36:56 GMT</pubDate>
-    </item>
-  
-    <item>
-      <title><![CDATA[When ERP Becomes the Last to Know: How Consumer Signals Die Between Marketing and Supply Chain]]></title>
-      <link>https://www.aierppartners.com/blogs/consumer-signal</link>
-      <guid>https://www.aierppartners.com/blogs/consumer-signal</guid>
-      <description><![CDATA[Consumer signals start strong in marketing tools but fade before reaching ERP. See how this gap disrupts forecasting, inventory, and execution.]]></description>
-      <pubDate>Sun, 21 Dec 2025 10:22:01 GMT</pubDate>
-    </item>
-  
-    <item>
-      <title><![CDATA[THE PROMOTION GAP – WHEN ERP FORECASTS IGNORE CONSUMER PSYCHOLOGY]]></title>
-      <link>https://www.aierppartners.com/blogs/THE-PROMOTION-GAP</link>
-      <guid>https://www.aierppartners.com/blogs/THE-PROMOTION-GAP</guid>
-      <description><![CDATA[Most ERP systems treat promotions as math problems, not psychological events. That disconnect is quietly breaking forecast accuracy and margin performance.]]></description>
-      <pubDate>Sun, 21 Dec 2025 10:10:50 GMT</pubDate>
-    </item>
-  
-    <item>
-      <title><![CDATA[The Review Data Your ERP Ignores Is Quietly Destroying Your Product Margins]]></title>
-      <link>https://www.aierppartners.com/blogs/review-data</link>
-      <guid>https://www.aierppartners.com/blogs/review-data</guid>
-      <description><![CDATA[ERP metrics lag reality. Review data shows where margins are already bleeding through product flaws, service gaps, and repeatable failures.]]></description>
-      <pubDate>Sun, 21 Dec 2025 09:37:10 GMT</pubDate>
-    </item>
-  
-    <item>
-      <title><![CDATA[Why Regional Consumer Preferences Break Centralized ERP Planning Models]]></title>
-      <link>https://www.aierppartners.com/blogs/Centralized-ERP -Planning-Models</link>
-      <guid>https://www.aierppartners.com/blogs/Centralized-ERP -Planning-Models</guid>
-      <description><![CDATA[Centralized ERP planning assumes uniform demand. This white paper examines how regional consumer behavior disrupts forecasting, inventory, and execution, and what organizations must change to stay accurate.]]></description>
-      <pubDate>Sat, 20 Dec 2025 12:10:36 GMT</pubDate>
-    </item>
-  
-    <item>
-      <title><![CDATA[THE FLAVOR EXECUTION GAP – SYSTEMIC DELAY IN FMCG INNOVATION CYCLES]]></title>
-      <link>https://www.aierppartners.com/blogs/THE-FLAVOR-EXECUTION-GAP</link>
-      <guid>https://www.aierppartners.com/blogs/THE-FLAVOR-EXECUTION-GAP</guid>
-      <description><![CDATA[Flavor cycles are shrinking while enterprise systems lag behind. This white paper examines the execution gap between insight and launch, and what food companies must change to keep up.]]></description>
-      <pubDate>Sat, 20 Dec 2025 12:01:55 GMT</pubDate>
     </item>
   
   </channel>

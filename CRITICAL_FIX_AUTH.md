@@ -16,7 +16,7 @@
 ### Step 1: Fix Supabase Redirect URLs (CRITICAL)
 
 1. **Go to Supabase Dashboard:**
-   - https://app.supabase.com/project/jhnfpnovnyqeoyjokqrc/auth/url-configuration
+   - https://app.supabase.com/project/dyemfenyszdjtncetadx/auth/url-configuration
 
 2. **Set Site URL to:**
    ```
@@ -42,7 +42,7 @@
 ### Step 2: Check Email Auth Provider Settings
 
 1. **Go to:**
-   - https://app.supabase.com/project/jhnfpnovnyqeoyjokqrc/auth/providers
+   - https://app.supabase.com/project/dyemfenyszdjtncetadx/auth/providers
 
 2. **Click on "Email" provider**
 
@@ -67,7 +67,7 @@
 ### Step 3: Update Email Templates (If Using Email Confirmation)
 
 1. **Go to:**
-   - https://app.supabase.com/project/jhnfpnovnyqeoyjokqrc/auth/templates
+   - https://app.supabase.com/project/dyemfenyszdjtncetadx/auth/templates
 
 2. **For EACH template (Confirm signup, Magic Link, etc.):**
    - Find any URLs that say `localhost`
@@ -86,7 +86,7 @@
 If you already sent invitation emails and they're not working:
 
 1. **Go to:**
-   - https://app.supabase.com/project/jhnfpnovnyqeoyjokqrc/auth/users
+   - https://app.supabase.com/project/dyemfenyszdjtncetadx/auth/users
 
 2. **For each user:**
    - Click on the user
@@ -110,7 +110,7 @@ After fixing the redirect URLs:
 ## 🔍 Verify the Fix
 
 ### Test 1: Check Supabase Configuration
-1. Go to: https://app.supabase.com/project/jhnfpnovnyqeoyjokqrc/auth/url-configuration
+1. Go to: https://app.supabase.com/project/dyemfenyszdjtncetadx/auth/url-configuration
 2. Verify Site URL is: `https://aierpartner.com`
 3. Verify Redirect URLs include your production domain
 
@@ -176,7 +176,7 @@ If it still doesn't work after the above steps:
 4. Look for these logs:
    ```
    Attempting login...
-   Supabase URL: https://jhnfpnovnyqeoyjokqrc.supabase.co
+   Supabase URL: https://dyemfenyszdjtncetadx.supabase.co
    Has Supabase Key: true
    Login error: [error details here]
    ```

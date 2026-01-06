@@ -40,7 +40,7 @@ After building, check `dist/assets/*.js` files. They should contain your actual 
 You need to create an admin user in Supabase Auth:
 
 1. **Go to Supabase Dashboard:**
-   - https://app.supabase.com/project/jhnfpnovnyqeoyjokqrc/auth/users
+   - https://app.supabase.com/project/dyemfenyszdjtncetadx/auth/users
 
 2. **Click "Add User" or "Invite User"**
 
@@ -128,8 +128,8 @@ rmdir /s /q dist
 ### 2. Verify .env File
 Make sure `.env` contains:
 ```env
-VITE_SUPABASE_URL=https://jhnfpnovnyqeoyjokqrc.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpobmZwbm92bnlxZW95am9rcXJjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQzNzY1MjIsImV4cCI6MjA3OTk1MjUyMn0.yoD5SB7JVcaAcl1OzLuiyJtNM7U4esXSTyEsOma9v3E
+VITE_SUPABASE_URL=https://dyemfenyszdjtncetadx.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR5ZW1mZW55c3pkanRuY2V0YWR4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc2MDE0OTAsImV4cCI6MjA4MzE3NzQ5MH0.aBLoOxKED0RWNY040QqUaGvn39cOREHjb5lrLrzXGkM
 ```
 
 ### 3. Build

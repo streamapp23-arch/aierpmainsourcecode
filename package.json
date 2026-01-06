@@ -5,14 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "sitemap": "node generate-sitemap.js",
-    "rss": "node generate-rss.js",
-    "llms": "node generate-llms.js",
-    "prerender": "node prerender.js",
-    "prerender:advanced": "node prerender-advanced.js",
-    "build": "npm run sitemap && npm run rss && npm run llms && vite build && npm run prerender:advanced",
+    "build": "vite build",
     "build:dev": "vite build --mode development",
-    "build:no-prerender": "npm run sitemap && npm run rss && npm run llms && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

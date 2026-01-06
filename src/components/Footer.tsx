@@ -69,11 +69,13 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-lg mb-4">Solutions</h4>
             <ul className="space-y-2 text-white/70">
-              <li><a href="/erp-ai" className="hover:text-white transition">ERP AI Development</a></li>
-              <li><a href="/oracle" className="hover:text-white transition">Oracle Integration</a></li>
+              <li><a href="/erp-ai" className="hover:text-white transition">ERP AI</a></li>
+              <li><a href="/oracle" className="hover:text-white transition">Oracle</a></li>
+              <li><a href="/ai-integration-services" className="hover:text-white transition">AI Integration Services</a></li>
               <li><a href="/open-erp" className="hover:text-white transition">Open ERP</a></li>
-              <li><a href="/custom-application-development" className="hover:text-white transition">Custom Development</a></li>
-              <li><a href="/ai-integration-services" className="hover:text-white transition">AI Integration</a></li>
+              <li><a href="/odoo-crm" className="hover:text-white transition">Odoo CRM</a></li>
+              <li><a href="/zoho-crm" className="hover:text-white transition">Zoho CRM</a></li>
+              <li><a href="/custom-application-development" className="hover:text-white transition">Custom Application Development</a></li>
             </ul>
           </div>
 
@@ -81,10 +83,10 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-lg mb-4">Services</h4>
             <ul className="space-y-2 text-white/70">
-              <li><a href="/business-process-consulting" className="hover:text-white transition">Business Consulting</a></li>
-              <li><a href="/implementation-upgrades" className="hover:text-white transition">Implementation</a></li>
+              <li><a href="/business-process-consulting" className="hover:text-white transition">Business Process Consulting</a></li>
+              <li><a href="/implementation-upgrades" className="hover:text-white transition">Implementation / Upgrades</a></li>
               <li><a href="/managed-services" className="hover:text-white transition">Managed Services</a></li>
-              <li><a href="/integration-services" className="hover:text-white transition">Integration</a></li>
+              <li><a href="/integration-services" className="hover:text-white transition">Integration Services</a></li>
               <li><a href="/enterprise-mobility" className="hover:text-white transition">Enterprise Mobility</a></li>
             </ul>
           </div>
@@ -94,9 +96,9 @@ const Footer = () => {
             <h4 className="font-bold text-lg mb-4">Industries</h4>
             <ul className="space-y-2 text-white/70">
               <li><a href="/manufacturing" className="hover:text-white transition">Manufacturing</a></li>
-              <li><a href="/retail" className="hover:text-white transition">Retail</a></li>
+              <li><a href="/retail" className="hover:text-white transition">Retail & E-commerce</a></li>
               <li><a href="/healthcare" className="hover:text-white transition">Healthcare</a></li>
-              <li><a href="/logistics" className="hover:text-white transition">Logistics</a></li>
+              <li><a href="/logistics" className="hover:text-white transition">Logistics & Supply Chain</a></li>
               <li><a href="/oil-gas" className="hover:text-white transition">Oil & Gas</a></li>
             </ul>
           </div>
@@ -105,7 +107,7 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-lg mb-4">Company</h4>
             <ul className="space-y-2 text-white/70 mb-6">
-              <li><a href="/about" className="hover:text-white transition">About Us</a></li>
+              <li><a href="/about" className="hover:text-white transition">About</a></li>
               <li><a href="/blog" className="hover:text-white transition">Blog</a></li>
               <li><a href="/roi-calculator" className="hover:text-white transition">ROI Calculator</a></li>
               <li><a href="/contact" className="hover:text-white transition">Contact</a></li>

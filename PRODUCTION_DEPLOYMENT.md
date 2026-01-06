@@ -5,7 +5,7 @@
 ### 1. Supabase Configuration
 
 #### A. Authentication URL Configuration
-1. Go to: https://app.supabase.com/project/jhnfpnovnyqeoyjokqrc/auth/url-configuration
+1. Go to: https://app.supabase.com/project/dyemfenyszdjtncetadx/auth/url-configuration
 
 2. **Site URL** (Main production URL):
    ```
@@ -57,8 +57,8 @@ If you're using Supabase Storage for images:
 ### 1. Verify Environment Variables
 Your `.env` file should contain:
 ```env
-VITE_SUPABASE_URL=https://jhnfpnovnyqeoyjokqrc.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpobmZwbm92bnlxZW95am9rcXJjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQzNzY1MjIsImV4cCI6MjA3OTk1MjUyMn0.yoD5SB7JVcaAcl1OzLuiyJtNM7U4esXSTyEsOma9v3E
+VITE_SUPABASE_URL=https://dyemfenyszdjtncetadx.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR5ZW1mZW55c3pkanRuY2V0YWR4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc2MDE0OTAsImV4cCI6MjA4MzE3NzQ5MH0.aBLoOxKED0RWNY040QqUaGvn39cOREHjb5lrLrzXGkM
 ```
 
 ### 2. Build for Production
@@ -194,7 +194,7 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 ## 📞 Support Resources
 
-- **Supabase Dashboard:** https://app.supabase.com/project/jhnfpnovnyqeoyjokqrc
+- **Supabase Dashboard:** https://app.supabase.com/project/dyemfenyszdjtncetadx
 - **Supabase Docs:** https://supabase.com/docs
 - **GoDaddy Support:** https://www.godaddy.com/help
 
